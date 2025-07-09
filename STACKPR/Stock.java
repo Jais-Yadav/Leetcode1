@@ -1,8 +1,8 @@
 import java.util.Stack;
-class StockSpanner {
+class Stock {
 int ind;
 Stack <int[]>st;
-    public StockSpanner() {
+    public Stock() {
         ind=-1;
         st=new Stack<>();
         
