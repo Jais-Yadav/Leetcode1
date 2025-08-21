@@ -5,11 +5,13 @@ int recursion(int n){
         return 1;
 
     }
-    return n * main(n-1);
+    return n * recursion(n-1);
 }
 
-int main(){
+int main() {
 
     printf("%d\n", recursion(5));
+
+    return 0;
 
 }
