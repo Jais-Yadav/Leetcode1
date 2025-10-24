@@ -29,13 +29,13 @@ public class LLPR4 {
         while(temp!=null){
             if(temp.val==0){
                 zero.next=temp;
-                zero=temp;
+                zero=temp; // zero ko aage badhao
             }else if(temp.val==1){
                 one.next=temp;
-                one=temp;
+                one=temp; // one ko aage badhao
             }else{
                 two.next=temp;
-                two=temp;
+                two=temp; // two ko aage badhao
             }
             temp=temp.next;
         }
